@@ -1,0 +1,45 @@
+# Skill: Male Transformer
+
+> A Grok skill for the Male Transformer Unit on learn/live/laugh OS, with helium/argon dosing and a multi-modal talk cascade before any move.
+
+## Purpose
+Explain the persona skill so a reader sees the OS names, the gas mix idea, and the rule that talk comes before motion. Source: fitzyracing1/skill-male-transformer.
+
+## How it works (plain English)
+1. Enter learn/live/laugh mode.
+2. Keep the named helium/argon mix.
+3. Talk across more than one channel before moving.
+4. Then execute the move.
+
+## Key ideas
+- Learn/live/laugh OS (the three named modes)
+- Binary gas dosing (helium and argon in a set ratio)
+- Multi-modal cascade (speak on more than one channel first)
+
+## The actual code
+```
+# source: fitzyracing1/skill-male-transformer
+mode = learn_live_laugh
+dose(helium, argon)
+cascade_talk()
+then_move()
+```
+
+## Line-by-line translation
+1. mode = learn_live_laugh → “use those three named modes”
+2. dose(helium, argon) → “keep the named mix”
+3. cascade_talk() → “speak on the required channels first”
+4. then_move() → “only then move”
+
+## Decisions the program makes
+- If talk has not cascaded → do not move
+- If the mix is off → correct before a move
+
+## What a person would notice
+A persona that must speak before it acts.
+
+## Current status
+Barrage clone.
+
+## Next possible steps
+Open the HTML skill in the source.
